@@ -95,6 +95,36 @@ bash launch/start_all_pipeline.sh
 
 ### 🔧 单独启动各模块
 
+#### ✈️ 无人机飞控
+
+```bash
+# PX4 飞控节点
+ros2 run aerial_control px4_node
+
+# 或启动完整飞控管线
+bash launch/start_tf.sh
+bash launch/start_camera.sh
+bash launch/start_depth_odom.sh
+```
+
+#### 🤖 机械臂
+
+```bash
+# 机械臂可视化与描述
+ros2 launch niryo_bot display.launch.py
+
+# 或启动 Gazebo 仿真
+ros2 launch niryo_bot gazebo.launch.py
+
+# MoveIt 运动规划
+ros2 launch niryo_moveit_config demo.launch.py
+
+# 机械臂控制节点
+ros2 run niryo_bot_control wipe_action_node
+```
+
+#### 🗺️ 感知与建图
+
 ```bash
 # 1. 📷 摄像头
 bash launch/start_camera.sh
@@ -107,7 +137,11 @@ bash launch/start_fusion.sh
 
 # 4. 🗺️ OctoMap 建图
 bash launch/start_octomap.sh
+```
 
+#### 🧭 路径规划
+
+```bash
 # 5. 🧭 EgoPlanner 路径规划
 bash launch/start_ego.sh
 ```
