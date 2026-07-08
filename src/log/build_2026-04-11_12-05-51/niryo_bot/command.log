@@ -1,0 +1,6 @@
+Invoking command in '/root/catkin_ws/src/build/niryo_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/catkin_ws/src/niryo_bot -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/src/install/niryo_bot
+Invoked command in '/root/catkin_ws/src/build/niryo_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/catkin_ws/src/niryo_bot -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/src/install/niryo_bot
+Invoking command in '/root/catkin_ws/src/build/niryo_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/catkin_ws/src/build/niryo_bot -- -j8 -l8
+Invoked command in '/root/catkin_ws/src/build/niryo_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/catkin_ws/src/build/niryo_bot -- -j8 -l8
+Invoking command in '/root/catkin_ws/src/build/niryo_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/catkin_ws/src/build/niryo_bot
+Invoked command in '/root/catkin_ws/src/build/niryo_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/catkin_ws/src/build/niryo_bot

@@ -1,0 +1,75 @@
+[0.051s] Invoking command in '/root/catkin_ws/src/build/niryo_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/catkin_ws/src/niryo_bot -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/src/install/niryo_bot
+[0.727s] -- The C compiler identification is GNU 11.2.0
+[1.331s] -- The CXX compiler identification is GNU 11.2.0
+[1.397s] -- Detecting C compiler ABI info
+[1.812s] -- Detecting C compiler ABI info - done
+[1.894s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.897s] -- Detecting C compile features
+[1.900s] -- Detecting C compile features - done
+[1.920s] -- Detecting CXX compiler ABI info
+[2.387s] -- Detecting CXX compiler ABI info - done
+[2.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.465s] -- Detecting CXX compile features
+[2.469s] -- Detecting CXX compile features - done
+[2.486s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.764s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.393s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.868s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.889s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.892s] -- Added test 'lint_cmake' to check CMake code style
+[5.895s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.903s] -- Added test 'xmllint' to check XML markup files
+[5.911s] -- Configuring done
+[5.923s] -- Generating done
+[5.932s] -- Build files have been written to: /root/catkin_ws/src/build/niryo_bot
+[5.962s] Invoked command in '/root/catkin_ws/src/build/niryo_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/catkin_ws/src/niryo_bot -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/src/install/niryo_bot
+[5.984s] Invoking command in '/root/catkin_ws/src/build/niryo_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/catkin_ws/src/build/niryo_bot -- -j8 -l8
+[6.176s] Invoked command in '/root/catkin_ws/src/build/niryo_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/catkin_ws/src/build/niryo_bot -- -j8 -l8
+[6.229s] Invoking command in '/root/catkin_ws/src/build/niryo_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/catkin_ws/src/build/niryo_bot
+[6.263s] -- Install configuration: ""
+[6.264s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes
+[6.264s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/collada
+[6.265s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/collada/wrist_link.dae
+[6.301s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/collada/base_link.dae
+[6.408s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/collada/arm_link.dae
+[6.474s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/collada/shoulder_link.dae
+[6.535s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/collada/elbow_link.dae
+[6.560s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/collada/hand_link.dae
+[6.563s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/collada/forearm_link.dae
+[6.588s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/stl
+[6.588s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/stl/hand_link.stl
+[6.589s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/stl/wrist_link.stl
+[6.590s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/stl/arm_link.stl
+[6.591s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/stl/forearm_link.stl
+[6.592s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/stl/elbow_link.stl
+[6.593s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/stl/shoulder_link.stl
+[6.594s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//meshes/stl/base_link.stl
+[6.595s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//urdf
+[6.596s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//urdf/niryo.urdf_mock.xacro
+[6.596s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//urdf/niryo_one.ros2_control.xacro
+[6.597s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//urdf/niryo_one.urdf.xacro
+[6.598s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//urdf/niryo.urdf.xacro
+[6.599s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//urdf/niryo_one.ros2_control_mock.xacro
+[6.600s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//config
+[6.601s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//config/default_config.rviz
+[6.601s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//launch
+[6.602s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//launch/display.launch.py
+[6.603s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//launch/gazebo.launch.py
+[6.604s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//rviz
+[6.605s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot//rviz/urdf.rviz
+[6.606s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/ament_index/resource_index/package_run_dependencies/niryo_bot
+[6.607s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/ament_index/resource_index/parent_prefix_path/niryo_bot
+[6.608s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/environment/ament_prefix_path.sh
+[6.608s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/environment/ament_prefix_path.dsv
+[6.609s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/environment/path.sh
+[6.610s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/environment/path.dsv
+[6.610s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/local_setup.bash
+[6.611s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/local_setup.sh
+[6.612s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/local_setup.zsh
+[6.612s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/local_setup.dsv
+[6.613s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/package.dsv
+[6.614s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/ament_index/resource_index/packages/niryo_bot
+[6.614s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/cmake/niryo_botConfig.cmake
+[6.615s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/cmake/niryo_botConfig-version.cmake
+[6.616s] -- Installing: /root/catkin_ws/src/install/niryo_bot/share/niryo_bot/package.xml
+[6.625s] Invoked command in '/root/catkin_ws/src/build/niryo_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/catkin_ws/src/build/niryo_bot

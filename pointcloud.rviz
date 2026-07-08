@@ -1,0 +1,171 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded: ~
+    Splitter Ratio: 0.5
+    Tree Height: 600
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Plane Cell Count: 20
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Show Axes: true
+      Show Names: true
+      Value: true
+    - Class: rviz_default_plugins/PointCloud2
+      Name: DepthCloud
+      Topic:
+        Depth: 5
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        Value: /camera/depth/points
+      Alpha: 1
+      Autocompute Intensity Bounds: true
+      Color Transformer: AxisColor
+      Decay Time: 0
+      Enabled: true
+      Max Intensity: 4096
+      Min Intensity: 0
+      Size (Pixels): 3
+      Size (m): 0.02
+      Style: Flat Squares
+      Use Fixed Frame: true
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: OctoMap
+      Topic:
+        Depth: 5
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Value: /occupied_voxels
+      Enabled: true
+      Value: true
+    - Class: rviz_default_plugins/PointCloud2
+      Name: EgoPlanner_Occupancy
+      Topic:
+        Depth: 5
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Value: /grid_map/occupancy
+      Alpha: 0.8
+      Autocompute Intensity Bounds: true
+      Color Transformer: FlatColor
+      Color: 200; 0; 0
+      Decay Time: 0
+      Enabled: true
+      Size (Pixels): 8
+      Size (m): 0.15
+      Style: Spheres
+      Use Fixed Frame: true
+      Value: true
+    - Class: rviz_default_plugins/PointCloud2
+      Name: EgoPlanner_OccInflate
+      Topic:
+        Depth: 5
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Value: /grid_map/occupancy_inflate
+      Alpha: 0.5
+      Autocompute Intensity Bounds: true
+      Color Transformer: FlatColor
+      Color: 255; 160; 0
+      Decay Time: 0
+      Enabled: true
+      Size (Pixels): 6
+      Size (m): 0.12
+      Style: Spheres
+      Use Fixed Frame: true
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Name: EgoPlanner_Trajectory
+      Topic:
+        Depth: 5
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Value: /optimal_list
+      Enabled: true
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Name: EgoPlanner_GoalPoint
+      Topic:
+        Depth: 5
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Value: /goal_point
+      Enabled: true
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Name: EgoPlanner_AStar
+      Topic:
+        Depth: 5
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Value: /a_star_list
+      Enabled: true
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Name: EgoPlanner_InitPath
+      Topic:
+        Depth: 5
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Value: /init_list
+      Enabled: true
+      Value: true
+    - Class: rviz_default_plugins/PoseWithCovariance
+      Name: DronePose
+      Topic:
+        Depth: 5
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Value: /odom
+      Enabled: true
+      Value: true
+      Shape:
+        Value: Arrow
+        Color: 0; 255; 0
+        Alpha: 1
+        Shaft Length: 0.4
+        Shaft Radius: 0.05
+        Head Length: 0.1
+        Head Radius: 0.1
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Enable Stereo: true
+      Invert Z Axis: false
+      Name: Orbit
+      Near Clip Distance: 0.01
+      Target Frame: <Fixed Frame>
+      Distance: 8
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05
+      Invert Z Axis: false
+      Yaw: 0
+      Pitch: 0.5
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 700
+  Hide Left Dock: false
+  Width: 1200
+  X: 50
+  Y: 50
+

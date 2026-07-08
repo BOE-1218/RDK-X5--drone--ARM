@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<robot name="niryo_one" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+    <xacro:include filename="niryo_one.urdf.xacro" />
+    <xacro:include filename="niryo_one.ros2_control.xacro" />
+</robot>

@@ -1,0 +1,14 @@
+/icp_odometry:
+  ros__parameters:
+    scan_topic: "/camera/depth/points"
+    frame_id: "camera_link"
+    odom_frame_id: "odom"
+    publish_tf: true
+    qos: 2
+    "Icp/Strategy": 0
+    "Icp/MaxCorrespondenceDistance": 0.5
+    "Icp/VoxelSize": 0.05
+    "Icp/Iterations": 30
+    "Icp/CorrespondenceRatio": 0.1
+    "Icp/Force4DoF": true
+    "Odom/ResetCount": 1
